@@ -59,7 +59,7 @@ function buttonAnimation(current) {
   var pressedButton = document.querySelector("." + current);
   pressedButton.classList.add("pressed");
 
-  setTimeout(function(){
+  setTimeout(function() {
     pressedButton.classList.remove("pressed");
   }, 100);
 
